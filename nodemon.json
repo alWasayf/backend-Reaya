@@ -1,0 +1,7 @@
+{
+  "watch": [
+    "dist"
+  ],
+  "ext": "js",
+  "exec": "node --experimental-modules --es-module-specifier-resolution=node  -r tsconfig-paths/register dist/index.js"
+}
